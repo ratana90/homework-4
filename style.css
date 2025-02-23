@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+/* ============================================================== */
+/* header[start] */
+
+.navbar {
+  background-color: rgb(10, 38, 10);
+  width: 100%;
+  padding: 10px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.logo {
+  text-transform: uppercase;
+  float: left;
+  color: white;
+  font-size: 20px;
+}
+
+.menu {
+  text-transform: capitalize;
+  float: right;
+  color: white;
+}
+/* header[end] */
+/* =============================================================== */
+/* main[start] */
+
+.about_1 {
+  background-color: rgb(126, 223, 126);
+  padding: 50px 0;
+}
+
+.about_2 {
+  background-color: rgb(191, 191, 235);
+  padding: 50px 0;
+}
+
+.box_1 {
+  background-color: rgb(5, 30, 12);
+  width: 220px;
+  height: 200px;
+  float: left;
+}
+
+.box_2 {
+  background-color: rgb(5, 18, 30);
+  width: 220px;
+  height: 200px;
+  float: right;
+}
+/* main[end] */
+/* ================================================================ */
+/* footer[star] */
+
+footer h3 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* footer[end] */
+
